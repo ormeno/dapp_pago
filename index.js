@@ -6,7 +6,9 @@ const bodyParser = require('body-parser')
 
 const hashPayment = require('./lib/hashPayment')
 
-app.set('port',3000)
+const port = process.env.PORT || 3000;
+
+app.set('port',port)
 app.set('views', path.join(__dirname, 'views'))
 app.use(express.static(path.join(__dirname, 'public')))
 app.engine('.hbs',exphbs({
@@ -43,5 +45,5 @@ app.post('/', hashPayment, (req, res) => {
 
 
 app.listen(app.get('port'), () => {
-    console.log('Server is running')
+    console.log('Servidor corriendo en el puerto', port)
 })

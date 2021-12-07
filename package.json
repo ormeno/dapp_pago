@@ -1,0 +1,23 @@
+{
+  "name": "web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"  
+  },
+  "author": "ROJ",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ethereumjs-abi": "^0.6.7",
+    "express": "^4.16.4",
+    "express-handebars": "^3.0.2",
+    "express-handlebars": "^5.3.4",
+    "handlebars": "^4.7.7",
+    "web3": "^1.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  }
+}

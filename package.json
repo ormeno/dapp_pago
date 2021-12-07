@@ -8,7 +8,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon index.js",
-    "start": "node index.js"  
+    "start": "node index.js"
   },
   "author": "ROJ",
   "license": "ISC",
@@ -16,8 +16,7 @@
     "body-parser": "^1.18.3",
     "ethereumjs-abi": "^0.6.7",
     "express": "^4.16.4",
-    "express-handebars": "^3.0.2",
-    "express-handlebars": "^5.3.4",
+    "express-handlebars": "^3.0.2",
     "handlebars": "^4.7.7",
     "web3": "^1.6.0"
   },
